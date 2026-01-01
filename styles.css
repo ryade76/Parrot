@@ -436,6 +436,18 @@ h1, h2, h3, h4 {
     box-shadow: var(--shadow-lg);
 }
 
+.about-img {
+    width: 100%;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.image-card:hover .about-img {
+    transform: scale(1.05);
+}
+
 .image-placeholder {
     aspect-ratio: 4/5;
     display: flex;
